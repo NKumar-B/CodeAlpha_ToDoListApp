@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusForge - Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tasks-body">
+    <nav class="navbar">
+        <div class="logo">FocusForge</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Back to Home</a></li>
+            <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">🌙</button></li>
+        </ul>
+    </nav>
+
+    <section class="task-fullscreen-wrapper">
+        <div class="todo-container">
+            <h2>Task Master</h2>
+            
+            <form id="todo-form">
+                <input type="text" id="task-input" placeholder="What needs to be done?" required>
+                <button type="submit" class="btn-add">Add Task</button>
+            </form>
+
+            <ul id="task-list">
+                </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 FocusForge. All rights reserved.</p>
+    </footer>
+
+    <script src="theme.js"></script>
+    <script src="tasks.js"></script>
+</body>
+</html>
